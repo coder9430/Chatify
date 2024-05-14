@@ -1,0 +1,49 @@
+.allcontacts {
+    background-color: #080420;
+  }
+  
+  .avatar img {
+    height: 30px;
+    width: 30px;
+  }
+  .brand img{
+    height:40px;
+    width: 40px;
+    /* border-radius: 26px; */
+  }
+  
+  .brand h4{
+    letter-spacing: 2px;
+  }
+  .contact {
+    border: none !important;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ffffff34 !important;
+  }
+  
+  .contact:hover {
+    background-color:#9a86f3 !important;
+    text-decoration: none;
+  }
+  
+  .contacts {
+    &::-webkit-scrollbar {
+      width: 0.2rem;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #ffffff39;
+      width: 0.1rem;
+      border-radius: 1rem;
+    }
+  }
+  
+  .btn-tooltip {
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 0;
+  }
+ 
